@@ -1,0 +1,135 @@
+body{
+    margin:0 auto;
+    background-color:#f8f8f8;
+}
+header{
+    width:100%;
+    height:80px;
+    background-color:white;
+    box-shadow:2px 2px 4px lightgray;
+    text-align:center;
+}
+.headerbox1{
+    height:50px;
+    width:30%;
+    display: inline-block;
+}
+.headerbox2{
+    width:30%;
+    display: inline-block;
+}
+header img{
+    height:50px;
+}
+.headerbox3{
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size:14px;
+    width:30%;
+    display: inline-block;
+    text-align: right;
+}
+main{
+    width:100%;
+}
+.form{
+    margin:0 auto;
+    border:lightgray solid 2px;
+    width:600px;
+    background-color:white;
+    border-radius: 10px;
+    margin-top:40px;
+    margin-bottom: 40px;
+    box-shadow:4px 4px 4px lightgray;
+    padding: 25px 25px 25px 25px;
+}
+h2{
+    border-bottom: solid 1px #31A263;
+    text-align: center;
+    display: block;
+}
+.contents{
+    clear:left;
+    padding-top:20px;
+}
+.text{
+    padding-left:20px;
+    text-align: left;
+}
+.info{
+    width:100%;
+    display: flex;
+}
+.left{
+    width: 50%;
+    text-align: center;
+    width:300px;
+}
+.left img{
+    height:180px;
+    display:inline-block;
+}
+.right{
+    width: 50%;
+    height:180px;
+    width:300px;
+}
+.right p{
+    padding-top:10px;
+}
+.comments{
+    margin-top:10px;
+    padding:25px;
+    border-top: lightgray solid 2px;
+    font-size: 16px;
+}
+.comments_input{
+    font-size: 16px;
+}
+.submit_button{
+    border:1px solid lightgray;
+    padding:6px 60px 4px 60px;
+    color:white;
+    background-color:#31A263;
+    border-radius:5px;
+    border-bottom:solid 2px gray;
+    width:200px;
+    margin-bottom:20px;
+}
+.submit_input{
+    display: block;
+    text-align: center;
+}
+.formbox{
+    border:1px solid #dfdfdf;
+    padding:5px;
+    color:rgb(100, 100, 100);
+    background:#fff;
+}
+footer{
+    clear:left;
+    width:100%;
+    height:40px;
+    background-color:white;
+    color:gray;
+    text-align: center;
+    line-height:40px;
+    font-size:13px;
+    border-top:lightgray solid 2px;
+    position:fixed;
+    bottom:0;
+    box-shadow:-2px -2px 4px lightgray;
+}
+.submit_update{
+    display: block;
+    text-align: center;
+}
+.submit_updatebutton{
+    border:1px solid lightgray;
+    padding:6px 60px 4px 60px;
+    color:white;
+    background-color:#31A263;
+    border-radius:5px;
+    border-bottom:solid 2px gray;
+    margin-bottom:20px;
+}
